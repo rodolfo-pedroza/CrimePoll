@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>CrimePoll-Glosario</title>
+        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="sb-nav-fixed">
+        <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+            <!-- Navbar Brand-->
+            <a class="navbar-brand ps-3" href="index.html">CrimePoll</a>
+            <!-- Sidebar Toggle-->
+            <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle"><i class="fas fa-bars"></i></button>
+            <!-- Navbar Search-->
+            <!--<form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+                <div class="input-group">
+                    <input class="form-control" type="text" placeholder="Buscar..." aria-label="Search for..." aria-describedby="btnNavbarSearch" />
+                    <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>
+                </div>
+            </form>-->
+            <!-- Navbar-->
+            <!--<ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                  
+                        <li><hr class="dropdown-divider" /></li>
+                        <li><a class="dropdown-item" href="#!">Salir</a></li>
+                    </ul>
+                </li>
+            </ul>-->
+        </nav>
+        <div id="layoutSidenav">
+            <div id="layoutSidenav_nav">
+                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                    <div class="sb-sidenav-menu">
+                        <div class="nav">
+                            <div class="sb-sidenav-menu-heading">Menú</div>
+                            <a class="nav-link" href="index.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                                Introducción
+                            </a>
+                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                                <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+                                Glosario
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="Gases.html">Gases</a>
+                                
+                                </nav>
+                            </div>
+                           
+                            <a class="nav-link" href="Dashboard.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                                Dashboard
+                            </a>
+                            
+                        </div>
+                    </div>
+                    
+                </nav>
+            </div>
+            <div id="layoutSidenav_content">
+                <main>
+                    <div class="container-fluid px-4">
+                        <h1 class="mt-4">Glosario</h1>
+                        <ol class="breadcrumb mb-4">
+                            <li class="breadcrumb-item"><a href="index.html">Introducción</a></li>
+                            <li class="breadcrumb-item active">Glosario-Gases</li>
+                        </ol>
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <p class="mb-0">
+                                    A continuación se mostrara un glosario de los gases con los que se pueden filtrar las tablas 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <i class="fas fa-table me-1"></i>
+                                Glosario de Gases
+                            </div>
+                            <div class="card-body">
+                                <table id="datatablesSimple">
+                                    <thead>
+                                        <tr>
+                                            <th>Gas</th>
+                                            <th>Descripción</th>
+                                            
+                                        </tr>
+                                    </thead>
+                                    <tfoot>
+                                        <tr>
+                                            <th>Gas</th>
+                                            <th>Descripción</th>
+                                            
+                                        </tr>
+                                    </tfoot>
+                                    <tbody>
+                                        <tr>
+                                            <td>Monóxido de carbono (CO)</td>
+                                            <td>Gas venenoso, incoloro e inodoro, producido por la oxidación incompleta de combustibles de origen fósil.</td>   
+                                        </tr>
+                                        <tr>
+                                            <td>Óxido de nitrógeno (NO)</td>
+                                            <td>Es un gas incoloro con un olor dulce y ligeramente tóxico, con efecto anestésico y disociativo.​</td>   
+                                        </tr>
+                                        <tr>
+                                            <td>Bióxido de nitrógeno (NO2)</td>
+                                            <td>Contaminante que se genera cuando el nitrógeno contenido en los combustibles y en el aire se oxida en un proceso de combustión.</td>   
+                                        </tr>
+                                        <tr>
+                                            <td>Óxido de nitrógeno (NOx)</td>
+                                            <td>Se forma por la oxigenación del nitrógeno atmosférico y, en menor grado, a partir del nitrógeno orgánico contenido en los combustibles.</td>   
+                                        </tr>
+                                        <tr>
+                                            <td>Ozono (O3)</td>
+                                            <td>Contaminante secundario (no se emite directamente a la atmósfera) que se forma durante la reacción entre hidrocarburos reactivos, óxidos de nitrógeno y la radiación solar intensa.</td>   
+                                        </tr>
+                                        <tr>
+                                            <td>Partículas suspendidas de la fracción fina (PM 2.5)</td>
+                                            <td>Materia sólida o líquida dispersa en el aire, de diámetro igual o menor a 2.5 μm. Son conocidas también como fracción respirable ya que pueden penetrar hasta las vías respiratorias inferiores.</td>   
+                                        </tr>
+                                        <tr>
+                                            <td>Partículas suspendidas de la fracción inhalable (PM10)</td>
+                                            <td>Materia sólida o líquida dispersa en el aire, de diámetro igual o menor a 10 μm. Pueden permanecer en suspensión en la atmósfera desde unos segundos a varios meses, lo que depende de su tamaño.</td>   
+                                        </tr>
+                                        <tr>
+                                            <td>Particulado de Fracción Gruesa (PMCO)</td>
+                                            <td>Particulas con un diámetro de entre 2.5 y 10 μm. Se incluyen dentro de la fracción inhalable que se sedimenta o deposita en las vías respiratorias superiores.</td>   
+                                        </tr>
+                                        <tr>
+                                            <td>Bióxido de azufre (SO2)</td>
+                                            <td>Contaminante producido durante el proceso de combustión de los combustibles con contenido de azufre (gasolina, diesel, combustóleo, por ejemplo). Las emisiones de este contaminante provienen principalmente de actividades industriales.</td>   
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
+        <script src="js/datatables-simple-demo.js"></script>
+    </body>
+</html>
